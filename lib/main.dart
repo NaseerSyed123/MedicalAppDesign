@@ -17,6 +17,7 @@ void main() => runApp(EasyLocalization(child: myApp()));
 class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    print('Update 1.0');
     var data = EasyLocalizationProvider.of(context).data;
 
     /// To set orientation always portrait
