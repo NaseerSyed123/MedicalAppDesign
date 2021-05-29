@@ -17,10 +17,10 @@ void main() => runApp(EasyLocalization(child: myApp()));
 class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    print('Update 1.0');
+    print('Update 2.0');
     var data = EasyLocalizationProvider.of(context).data;
 
-    /// To set orientation always portrait
+    /// To set orientation always portraitgit
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
